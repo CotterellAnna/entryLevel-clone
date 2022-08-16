@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "poppins";
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+body{
+    font-family: "poppins", sans-serif ;
+    overflow-x: hidden;
+}
+
+.gray{
+    filter: grayscale(100%);
+}
+
+.label{
+    font-size: 10px;
+}
+
+.testimony-card{
+    width: 85%;
+    height: 75%;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+footer ul{
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+footer li:hover{
+    background-color: #8186ff;
+    border-radius: 10px;
+}
+
+footer a:hover{
+    color: white;
+}
+
+@media (min-width: 992px){
+    nav, .sub-container{
+        width: 90%
+    }
+    .gray{
+        width: 75%;
+    }
+    .blue-card{
+        width: 90%;
+        height: 80vh;
+        padding: 10%;
+    }
+    footer ul{
+        border: none;
+    }
+}
